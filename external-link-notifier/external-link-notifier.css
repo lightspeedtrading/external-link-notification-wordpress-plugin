@@ -1,0 +1,101 @@
+@charset "UTF-8";
+
+#lsexlwin {
+	display: none;
+	z-index:40001;
+	position:absolute;
+	top: 0;
+	left: 0;
+}
+
+#lsexloverlay {
+	position:fixed;
+	width:100%;
+	height:100%;
+	background-color:black;
+	opacity:.55;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+	filter:alpha(opacity=50);
+	z-index:40001;
+}
+
+#lsexlvoff {
+	position:fixed;
+	top:30%;
+	width:100%;
+	z-index:40002;
+}
+
+#lsexlcont {
+	width:560px;
+	position:relative;
+	margin:0 auto;
+	background-color:#999999;
+	border-radius: 6px;
+	padding:6px;
+}
+
+#lsexlcontinner {
+	background-color:#EFEFEF;
+	border-radius: 4px;
+	padding:14px;
+	font-size: 14px;
+	text-align: center;
+	line-height: 24px;
+}
+
+#lsexlcontinner span {
+	font-weight: bold;
+}
+
+#lsexlbtc {
+	width: 100%;
+}
+
+#lsexlbtn {
+	display: block;
+	width: 54px;
+	float: right;
+    padding: 5px 13px 4px;
+    margin: 12px 4px 4px 4px;
+    font-family: sans-serif;
+	background: -moz-linear-gradient(top, #f8c712, #d8ac15);
+    background: -webkit-linear-gradient(#f8c712, #d8ac15);
+    background: -o-linear-gradient(#f8c712, #d8ac15);
+    background: -ms-linear-gradient(#f8c712, #d8ac15);
+    background: linear-gradient(#f8c712, #d8ac15);
+    color: #000000;
+    text-shadow: 0 1px 0 #f8edb5;
+    font-size: 14px;
+	font-weight: bold;
+    border-radius: 20px;
+    border: 2px solid #fac811;
+    box-shadow: 0 1px 0 #f9db6b inset;
+	cursor: pointer;
+}
+
+#lsexlbtnc {
+	display: block;
+	width: 54px;
+	float: right;
+    padding: 5px 13px 4px;
+    margin: 12px 4px 4px 4px;
+    font-family: sans-serif;
+	background: -moz-linear-gradient(top, #d2d3d5, #b3b4b6);
+    background: -webkit-linear-gradient(#d2d3d5, #b3b4b6);
+    background: -o-linear-gradient(#d2d3d5, #b3b4b6);
+    background: -ms-linear-gradient(#d2d3d5, #b3b4b6);
+    background: linear-gradient(#d2d3d5, #b3b4b6);
+    color: #000000;
+    text-shadow: 0 1px 0 #f8edb5;
+    font-size: 14px;
+	font-weight: bold;
+    border-radius: 20px;
+    border: 2px solid #d2d3d5;
+    box-shadow: 0 1px 0 #e4e5e7 inset;
+	cursor: pointer;
+}
+
+div .lsexlmouseover {
+	color: #777777 !important;
+}
