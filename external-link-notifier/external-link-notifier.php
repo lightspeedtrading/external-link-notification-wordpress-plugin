@@ -8,7 +8,7 @@
 * License: MIT
 * Copyright: 2001-2012 Lightspeed Financial, Inc.
 **/
-class External-link-notifier
+class ExternalLinkNotifier
 {
     public function activate()
 	{
@@ -24,11 +24,11 @@ class External-link-notifier
 }
 
 // instance
-$external-link-notifier = new External-link-notifier();
+$externallinknotifier = new ExternalLinkNotifier();
 
 // hooks
-register_activation_hook(__file__, array($external-link-notifier, 'activate'));
+register_activation_hook(__file__, array($externallinknotifier, 'activate'));
 
 // actions
-add_action('wp_enqueue_scripts', array($external-link-notifier, 'enqueueInit'));
+add_action('wp_enqueue_scripts', array($externallinknotifier, 'enqueueInit'));
 ?>
